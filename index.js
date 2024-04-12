@@ -28,8 +28,8 @@ wss.on('connection', function (ws) {
   });
 });
 
-server.listen(8080, function () {
-  console.log('Listening on http://0.0.0.0:8080');
+server.listen(443, function () {
+  console.log('Listening on http://0.0.0.0:443');
 });
 
 // Serve a simple HTML page when visiting http://0.0.0.0:8080
